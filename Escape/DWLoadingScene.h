@@ -8,6 +8,6 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface DWMyScene : SKScene
+@interface DWLoadingScene : SKScene
 
 @end

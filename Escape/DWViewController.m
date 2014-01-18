@@ -7,7 +7,7 @@
 //
 
 #import "DWViewController.h"
-#import "DWMyScene.h"
+#import "DWLoadingScene.h"
 
 @implementation DWViewController
 
@@ -21,7 +21,7 @@
     skView.showsNodeCount = YES;
     
     // Create and configure the scene.
-    SKScene * scene = [DWMyScene sceneWithSize:skView.bounds.size];
+    SKScene * scene = [DWLoadingScene sceneWithSize:skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.

@@ -17,14 +17,16 @@
 		C982866C188A7BD90041949F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C982866A188A7BD90041949F /* Main_iPhone.storyboard */; };
 		C982866F188A7BD90041949F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C982866D188A7BD90041949F /* Main_iPad.storyboard */; };
 		C9828672188A7BD90041949F /* DWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9828671188A7BD90041949F /* DWViewController.m */; };
-		C9828675188A7BD90041949F /* DWMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C9828674188A7BD90041949F /* DWMyScene.m */; };
-		C9828677188A7BD90041949F /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = C9828676188A7BD90041949F /* Spaceship.png */; };
+		C9828675188A7BD90041949F /* DWLoadingScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C9828674188A7BD90041949F /* DWLoadingScene.m */; };
 		C9828679188A7BD90041949F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9828678188A7BD90041949F /* Images.xcassets */; };
 		C9828680188A7BD90041949F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C982867F188A7BD90041949F /* XCTest.framework */; };
 		C9828681188A7BD90041949F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9828656188A7BD90041949F /* Foundation.framework */; };
 		C9828682188A7BD90041949F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C982865A188A7BD90041949F /* UIKit.framework */; };
 		C982868A188A7BD90041949F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9828688188A7BD90041949F /* InfoPlist.strings */; };
 		C982868C188A7BD90041949F /* EscapeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C982868B188A7BD90041949F /* EscapeTests.m */; };
+		C982869C188A7CAF0041949F /* role_doctor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C982869B188A7CAF0041949F /* role_doctor@2x.png */; };
+		C982869E188A7CD20041949F /* role_alien_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C982869D188A7CD20041949F /* role_alien_1@2x.png */; };
+		C98286A2188A7D9A0041949F /* role_alien_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C98286A1188A7D9A0041949F /* role_alien_2@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,15 +55,17 @@
 		C982866E188A7BD90041949F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		C9828670188A7BD90041949F /* DWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWViewController.h; sourceTree = "<group>"; };
 		C9828671188A7BD90041949F /* DWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWViewController.m; sourceTree = "<group>"; };
-		C9828673188A7BD90041949F /* DWMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWMyScene.h; sourceTree = "<group>"; };
-		C9828674188A7BD90041949F /* DWMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWMyScene.m; sourceTree = "<group>"; };
-		C9828676188A7BD90041949F /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		C9828673188A7BD90041949F /* DWLoadingScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWLoadingScene.h; sourceTree = "<group>"; };
+		C9828674188A7BD90041949F /* DWLoadingScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWLoadingScene.m; sourceTree = "<group>"; };
 		C9828678188A7BD90041949F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C982867E188A7BD90041949F /* EscapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EscapeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C982867F188A7BD90041949F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C9828687188A7BD90041949F /* EscapeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EscapeTests-Info.plist"; sourceTree = "<group>"; };
 		C9828689188A7BD90041949F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C982868B188A7BD90041949F /* EscapeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EscapeTests.m; sourceTree = "<group>"; };
+		C982869B188A7CAF0041949F /* role_doctor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "role_doctor@2x.png"; sourceTree = "<group>"; };
+		C982869D188A7CD20041949F /* role_alien_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "role_alien_1@2x.png"; sourceTree = "<group>"; };
+		C98286A1188A7D9A0041949F /* role_alien_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "role_alien_2@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,16 +127,8 @@
 		C982865E188A7BD90041949F /* Escape */ = {
 			isa = PBXGroup;
 			children = (
-				C9828667188A7BD90041949F /* DWAppDelegate.h */,
-				C9828668188A7BD90041949F /* DWAppDelegate.m */,
-				C982866A188A7BD90041949F /* Main_iPhone.storyboard */,
-				C982866D188A7BD90041949F /* Main_iPad.storyboard */,
-				C9828670188A7BD90041949F /* DWViewController.h */,
-				C9828671188A7BD90041949F /* DWViewController.m */,
-				C9828673188A7BD90041949F /* DWMyScene.h */,
-				C9828674188A7BD90041949F /* DWMyScene.m */,
-				C9828676188A7BD90041949F /* Spaceship.png */,
-				C9828678188A7BD90041949F /* Images.xcassets */,
+				C982869F188A7D020041949F /* Scene */,
+				C98286A0188A7D130041949F /* App */,
 				C982865F188A7BD90041949F /* Supporting Files */,
 			);
 			path = Escape;
@@ -141,6 +137,11 @@
 		C982865F188A7BD90041949F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C982866A188A7BD90041949F /* Main_iPhone.storyboard */,
+				C982866D188A7BD90041949F /* Main_iPad.storyboard */,
+				C9828678188A7BD90041949F /* Images.xcassets */,
+				C9828699188A7C5A0041949F /* Images */,
+				C982869A188A7C5A0041949F /* Sounds */,
 				C9828660188A7BD90041949F /* Escape-Info.plist */,
 				C9828661188A7BD90041949F /* InfoPlist.strings */,
 				C9828664188A7BD90041949F /* main.m */,
@@ -165,6 +166,43 @@
 				C9828688188A7BD90041949F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9828699188A7C5A0041949F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C98286A1188A7D9A0041949F /* role_alien_2@2x.png */,
+				C982869D188A7CD20041949F /* role_alien_1@2x.png */,
+				C982869B188A7CAF0041949F /* role_doctor@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C982869A188A7C5A0041949F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		C982869F188A7D020041949F /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				C9828673188A7BD90041949F /* DWLoadingScene.h */,
+				C9828674188A7BD90041949F /* DWLoadingScene.m */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		C98286A0188A7D130041949F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C9828667188A7BD90041949F /* DWAppDelegate.h */,
+				C9828668188A7BD90041949F /* DWAppDelegate.m */,
+				C9828670188A7BD90041949F /* DWViewController.h */,
+				C9828671188A7BD90041949F /* DWViewController.m */,
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,10 +282,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9828677188A7BD90041949F /* Spaceship.png in Resources */,
+				C982869C188A7CAF0041949F /* role_doctor@2x.png in Resources */,
 				C9828679188A7BD90041949F /* Images.xcassets in Resources */,
 				C982866F188A7BD90041949F /* Main_iPad.storyboard in Resources */,
 				C982866C188A7BD90041949F /* Main_iPhone.storyboard in Resources */,
+				C98286A2188A7D9A0041949F /* role_alien_2@2x.png in Resources */,
+				C982869E188A7CD20041949F /* role_alien_1@2x.png in Resources */,
 				C9828663188A7BD90041949F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9828665188A7BD90041949F /* main.m in Sources */,
-				C9828675188A7BD90041949F /* DWMyScene.m in Sources */,
+				C9828675188A7BD90041949F /* DWLoadingScene.m in Sources */,
 				C9828672188A7BD90041949F /* DWViewController.m in Sources */,
 				C9828669188A7BD90041949F /* DWAppDelegate.m in Sources */,
 			);
