@@ -27,6 +27,10 @@
 		C982869C188A7CAF0041949F /* role_doctor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C982869B188A7CAF0041949F /* role_doctor@2x.png */; };
 		C982869E188A7CD20041949F /* role_alien_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C982869D188A7CD20041949F /* role_alien_1@2x.png */; };
 		C98286A2188A7D9A0041949F /* role_alien_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C98286A1188A7D9A0041949F /* role_alien_2@2x.png */; };
+		D0EE9B7D188BD99F00A72AE8 /* test.tmx in Resources */ = {isa = PBXBuildFile; fileRef = D0EE9B7A188BD99F00A72AE8 /* test.tmx */; };
+		D0EE9B7E188BD99F00A72AE8 /* test.tmx in Resources */ = {isa = PBXBuildFile; fileRef = D0EE9B7A188BD99F00A72AE8 /* test.tmx */; };
+		D0EE9B7F188BD99F00A72AE8 /* testtile.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EE9B7C188BD99F00A72AE8 /* testtile.png */; };
+		D0EE9B80188BD99F00A72AE8 /* testtile.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EE9B7C188BD99F00A72AE8 /* testtile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +70,8 @@
 		C982869B188A7CAF0041949F /* role_doctor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "role_doctor@2x.png"; sourceTree = "<group>"; };
 		C982869D188A7CD20041949F /* role_alien_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "role_alien_1@2x.png"; sourceTree = "<group>"; };
 		C98286A1188A7D9A0041949F /* role_alien_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "role_alien_2@2x.png"; sourceTree = "<group>"; };
+		D0EE9B7A188BD99F00A72AE8 /* test.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.tmx; sourceTree = "<group>"; };
+		D0EE9B7C188BD99F00A72AE8 /* testtile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testtile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,8 @@
 		C982865E188A7BD90041949F /* Escape */ = {
 			isa = PBXGroup;
 			children = (
+				D0EE9B79188BD99F00A72AE8 /* maps */,
+				D0EE9B7B188BD99F00A72AE8 /* tiles */,
 				C982869F188A7D020041949F /* Scene */,
 				C98286A0188A7D130041949F /* App */,
 				C982865F188A7BD90041949F /* Supporting Files */,
@@ -203,6 +211,22 @@
 				C9828671188A7BD90041949F /* DWViewController.m */,
 			);
 			name = App;
+			sourceTree = "<group>";
+		};
+		D0EE9B79188BD99F00A72AE8 /* maps */ = {
+			isa = PBXGroup;
+			children = (
+				D0EE9B7A188BD99F00A72AE8 /* test.tmx */,
+			);
+			path = maps;
+			sourceTree = "<group>";
+		};
+		D0EE9B7B188BD99F00A72AE8 /* tiles */ = {
+			isa = PBXGroup;
+			children = (
+				D0EE9B7C188BD99F00A72AE8 /* testtile.png */,
+			);
+			path = tiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,12 +307,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C982869C188A7CAF0041949F /* role_doctor@2x.png in Resources */,
+				D0EE9B7F188BD99F00A72AE8 /* testtile.png in Resources */,
 				C9828679188A7BD90041949F /* Images.xcassets in Resources */,
 				C982866F188A7BD90041949F /* Main_iPad.storyboard in Resources */,
 				C982866C188A7BD90041949F /* Main_iPhone.storyboard in Resources */,
 				C98286A2188A7D9A0041949F /* role_alien_2@2x.png in Resources */,
 				C982869E188A7CD20041949F /* role_alien_1@2x.png in Resources */,
 				C9828663188A7BD90041949F /* InfoPlist.strings in Resources */,
+				D0EE9B7D188BD99F00A72AE8 /* test.tmx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +323,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C982868A188A7BD90041949F /* InfoPlist.strings in Resources */,
+				D0EE9B80188BD99F00A72AE8 /* testtile.png in Resources */,
+				D0EE9B7E188BD99F00A72AE8 /* test.tmx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,6 +559,7 @@
 				C9828691188A7BD90041949F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9828692188A7BD90041949F /* Build configuration list for PBXNativeTarget "EscapeTests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +568,7 @@
 				C9828694188A7BD90041949F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
