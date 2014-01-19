@@ -531,6 +531,7 @@
 				C9828691188A7BD90041949F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9828692188A7BD90041949F /* Build configuration list for PBXNativeTarget "EscapeTests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +540,7 @@
 				C9828694188A7BD90041949F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
