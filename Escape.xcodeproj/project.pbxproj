@@ -27,14 +27,32 @@
 		C982869C188A7CAF0041949F /* role_doctor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C982869B188A7CAF0041949F /* role_doctor@2x.png */; };
 		C982869E188A7CD20041949F /* role_alien_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C982869D188A7CD20041949F /* role_alien_1@2x.png */; };
 		C98286A2188A7D9A0041949F /* role_alien_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C98286A1188A7D9A0041949F /* role_alien_2@2x.png */; };
+		D0A65CFE188CDB3100D5AC8D /* TileMapParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A65CFD188CDB3100D5AC8D /* TileMapParser.m */; };
+		D0A65CFF188CDB3100D5AC8D /* TileMapParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A65CFD188CDB3100D5AC8D /* TileMapParser.m */; };
+		D0A65D1B188D051100D5AC8D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C982867F188A7BD90041949F /* XCTest.framework */; };
+		D0A65D1C188D051100D5AC8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9828656188A7BD90041949F /* Foundation.framework */; };
+		D0A65D1D188D051100D5AC8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C982865A188A7BD90041949F /* UIKit.framework */; };
+		D0A65D23188D051200D5AC8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0A65D21188D051200D5AC8D /* InfoPlist.strings */; };
+		D0A65D25188D051200D5AC8D /* Mapload_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A65D24188D051200D5AC8D /* Mapload_Tests.m */; };
+		D0A65D2E188D51FF00D5AC8D /* test.tmx in Resources */ = {isa = PBXBuildFile; fileRef = D0EE9B7A188BD99F00A72AE8 /* test.tmx */; };
+		D0A65D2F188D521B00D5AC8D /* testtile.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EE9B7C188BD99F00A72AE8 /* testtile.png */; };
 		D0EE9B7D188BD99F00A72AE8 /* test.tmx in Resources */ = {isa = PBXBuildFile; fileRef = D0EE9B7A188BD99F00A72AE8 /* test.tmx */; };
 		D0EE9B7E188BD99F00A72AE8 /* test.tmx in Resources */ = {isa = PBXBuildFile; fileRef = D0EE9B7A188BD99F00A72AE8 /* test.tmx */; };
 		D0EE9B7F188BD99F00A72AE8 /* testtile.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EE9B7C188BD99F00A72AE8 /* testtile.png */; };
 		D0EE9B80188BD99F00A72AE8 /* testtile.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EE9B7C188BD99F00A72AE8 /* testtile.png */; };
+		D0EE9B87188C021100A72AE8 /* TiledMap.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EE9B86188C021100A72AE8 /* TiledMap.m */; };
+		D0EE9B88188C021100A72AE8 /* TiledMap.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EE9B86188C021100A72AE8 /* TiledMap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		C9828683188A7BD90041949F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C982864B188A7BD90041949F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9828652188A7BD90041949F;
+			remoteInfo = Escape;
+		};
+		D0A65D27188D051200D5AC8D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C982864B188A7BD90041949F /* Project object */;
 			proxyType = 1;
@@ -70,8 +88,17 @@
 		C982869B188A7CAF0041949F /* role_doctor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "role_doctor@2x.png"; sourceTree = "<group>"; };
 		C982869D188A7CD20041949F /* role_alien_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "role_alien_1@2x.png"; sourceTree = "<group>"; };
 		C98286A1188A7D9A0041949F /* role_alien_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "role_alien_2@2x.png"; sourceTree = "<group>"; };
-		D0EE9B7A188BD99F00A72AE8 /* test.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.tmx; sourceTree = "<group>"; };
+		D0A65CFC188CDB3100D5AC8D /* TileMapParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileMapParser.h; sourceTree = "<group>"; };
+		D0A65CFD188CDB3100D5AC8D /* TileMapParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileMapParser.m; sourceTree = "<group>"; };
+		D0A65D1A188D051100D5AC8D /* Mapload Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mapload Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A65D20188D051200D5AC8D /* Mapload Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mapload Tests-Info.plist"; sourceTree = "<group>"; };
+		D0A65D22188D051200D5AC8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0A65D24188D051200D5AC8D /* Mapload_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mapload_Tests.m; sourceTree = "<group>"; };
+		D0A65D26188D051200D5AC8D /* Mapload Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mapload Tests-Prefix.pch"; sourceTree = "<group>"; };
+		D0EE9B7A188BD99F00A72AE8 /* test.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = test.tmx; path = maps/test.tmx; sourceTree = "<group>"; };
 		D0EE9B7C188BD99F00A72AE8 /* testtile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testtile.png; sourceTree = "<group>"; };
+		D0EE9B85188C021100A72AE8 /* TiledMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledMap.h; sourceTree = "<group>"; };
+		D0EE9B86188C021100A72AE8 /* TiledMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledMap.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +123,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D0A65D17188D051100D5AC8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A65D1B188D051100D5AC8D /* XCTest.framework in Frameworks */,
+				D0A65D1D188D051100D5AC8D /* UIKit.framework in Frameworks */,
+				D0A65D1C188D051100D5AC8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -104,6 +141,7 @@
 			children = (
 				C982865E188A7BD90041949F /* Escape */,
 				C9828685188A7BD90041949F /* EscapeTests */,
+				D0A65D1E188D051100D5AC8D /* Mapload Tests */,
 				C9828655188A7BD90041949F /* Frameworks */,
 				C9828654188A7BD90041949F /* Products */,
 			);
@@ -114,6 +152,7 @@
 			children = (
 				C9828653188A7BD90041949F /* Escape.app */,
 				C982867E188A7BD90041949F /* EscapeTests.xctest */,
+				D0A65D1A188D051100D5AC8D /* Mapload Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,7 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				D0EE9B79188BD99F00A72AE8 /* maps */,
-				D0EE9B7B188BD99F00A72AE8 /* tiles */,
 				C982869F188A7D020041949F /* Scene */,
 				C98286A0188A7D130041949F /* App */,
 				C982865F188A7BD90041949F /* Supporting Files */,
@@ -148,6 +186,8 @@
 				C982866A188A7BD90041949F /* Main_iPhone.storyboard */,
 				C982866D188A7BD90041949F /* Main_iPad.storyboard */,
 				C9828678188A7BD90041949F /* Images.xcassets */,
+				D0EE9B7B188BD99F00A72AE8 /* tiles */,
+				D0A65D2D188D478B00D5AC8D /* maps */,
 				C9828699188A7C5A0041949F /* Images */,
 				C982869A188A7C5A0041949F /* Sounds */,
 				C9828660188A7BD90041949F /* Escape-Info.plist */,
@@ -213,10 +253,40 @@
 			name = App;
 			sourceTree = "<group>";
 		};
-		D0EE9B79188BD99F00A72AE8 /* maps */ = {
+		D0A65D1E188D051100D5AC8D /* Mapload Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D0A65D24188D051200D5AC8D /* Mapload_Tests.m */,
+				D0A65D1F188D051200D5AC8D /* Supporting Files */,
+			);
+			path = "Mapload Tests";
+			sourceTree = "<group>";
+		};
+		D0A65D1F188D051200D5AC8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0A65D20188D051200D5AC8D /* Mapload Tests-Info.plist */,
+				D0A65D21188D051200D5AC8D /* InfoPlist.strings */,
+				D0A65D26188D051200D5AC8D /* Mapload Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0A65D2D188D478B00D5AC8D /* maps */ = {
 			isa = PBXGroup;
 			children = (
 				D0EE9B7A188BD99F00A72AE8 /* test.tmx */,
+			);
+			name = maps;
+			sourceTree = "<group>";
+		};
+		D0EE9B79188BD99F00A72AE8 /* maps */ = {
+			isa = PBXGroup;
+			children = (
+				D0A65CFC188CDB3100D5AC8D /* TileMapParser.h */,
+				D0A65CFD188CDB3100D5AC8D /* TileMapParser.m */,
+				D0EE9B85188C021100A72AE8 /* TiledMap.h */,
+				D0EE9B86188C021100A72AE8 /* TiledMap.m */,
 			);
 			path = maps;
 			sourceTree = "<group>";
@@ -267,6 +337,24 @@
 			productReference = C982867E188A7BD90041949F /* EscapeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D0A65D19188D051100D5AC8D /* Mapload Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0A65D2B188D051200D5AC8D /* Build configuration list for PBXNativeTarget "Mapload Tests" */;
+			buildPhases = (
+				D0A65D16188D051100D5AC8D /* Sources */,
+				D0A65D17188D051100D5AC8D /* Frameworks */,
+				D0A65D18188D051100D5AC8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0A65D28188D051200D5AC8D /* PBXTargetDependency */,
+			);
+			name = "Mapload Tests";
+			productName = "Mapload Tests";
+			productReference = D0A65D1A188D051100D5AC8D /* Mapload Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -278,6 +366,9 @@
 				ORGANIZATIONNAME = dodo;
 				TargetAttributes = {
 					C982867D188A7BD90041949F = {
+						TestTargetID = C9828652188A7BD90041949F;
+					};
+					D0A65D19188D051100D5AC8D = {
 						TestTargetID = C9828652188A7BD90041949F;
 					};
 				};
@@ -297,6 +388,7 @@
 			targets = (
 				C9828652188A7BD90041949F /* Escape */,
 				C982867D188A7BD90041949F /* EscapeTests */,
+				D0A65D19188D051100D5AC8D /* Mapload Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -328,6 +420,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D0A65D18188D051100D5AC8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A65D2F188D521B00D5AC8D /* testtile.png in Resources */,
+				D0A65D2E188D51FF00D5AC8D /* test.tmx in Resources */,
+				D0A65D23188D051200D5AC8D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -336,7 +438,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9828665188A7BD90041949F /* main.m in Sources */,
+				D0A65CFE188CDB3100D5AC8D /* TileMapParser.m in Sources */,
 				C9828675188A7BD90041949F /* DWLoadingScene.m in Sources */,
+				D0EE9B87188C021100A72AE8 /* TiledMap.m in Sources */,
 				C9828672188A7BD90041949F /* DWViewController.m in Sources */,
 				C9828669188A7BD90041949F /* DWAppDelegate.m in Sources */,
 			);
@@ -347,6 +451,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C982868C188A7BD90041949F /* EscapeTests.m in Sources */,
+				D0A65CFF188CDB3100D5AC8D /* TileMapParser.m in Sources */,
+				D0EE9B88188C021100A72AE8 /* TiledMap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A65D16188D051100D5AC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A65D25188D051200D5AC8D /* Mapload_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +471,11 @@
 			isa = PBXTargetDependency;
 			target = C9828652188A7BD90041949F /* Escape */;
 			targetProxy = C9828683188A7BD90041949F /* PBXContainerItemProxy */;
+		};
+		D0A65D28188D051200D5AC8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9828652188A7BD90041949F /* Escape */;
+			targetProxy = D0A65D27188D051200D5AC8D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -389,6 +508,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				C9828689188A7BD90041949F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0A65D21188D051200D5AC8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0A65D22188D051200D5AC8D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -540,6 +667,48 @@
 			};
 			name = Release;
 		};
+		D0A65D29188D051200D5AC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Escape.app/Escape";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mapload Tests/Mapload Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mapload Tests/Mapload Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D0A65D2A188D051200D5AC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Escape.app/Escape";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mapload Tests/Mapload Tests-Prefix.pch";
+				INFOPLIST_FILE = "Mapload Tests/Mapload Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -569,6 +738,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D0A65D2B188D051200D5AC8D /* Build configuration list for PBXNativeTarget "Mapload Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A65D29188D051200D5AC8D /* Debug */,
+				D0A65D2A188D051200D5AC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
