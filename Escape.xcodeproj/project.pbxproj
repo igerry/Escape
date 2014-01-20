@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C926C767188CF397004CFD95 /* DWLoadingSceneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C926C766188CF397004CFD95 /* DWLoadingSceneTests.m */; };
 		C9828657188A7BD90041949F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9828656188A7BD90041949F /* Foundation.framework */; };
 		C9828659188A7BD90041949F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9828658188A7BD90041949F /* CoreGraphics.framework */; };
 		C982865B188A7BD90041949F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C982865A188A7BD90041949F /* UIKit.framework */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C926C766188CF397004CFD95 /* DWLoadingSceneTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWLoadingSceneTests.m; sourceTree = "<group>"; };
 		C9828653188A7BD90041949F /* Escape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Escape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9828656188A7BD90041949F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9828658188A7BD90041949F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				C982868B188A7BD90041949F /* EscapeTests.m */,
+				C926C766188CF397004CFD95 /* DWLoadingSceneTests.m */,
 				C9828686188A7BD90041949F /* Supporting Files */,
 			);
 			path = EscapeTests;
@@ -346,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C926C767188CF397004CFD95 /* DWLoadingSceneTests.m in Sources */,
 				C982868C188A7BD90041949F /* EscapeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

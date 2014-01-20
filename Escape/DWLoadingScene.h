@@ -10,4 +10,6 @@
 
 @interface DWLoadingScene : SKScene
 
+- (BOOL)XCTestDemo;
+
 @end

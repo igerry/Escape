@@ -221,4 +221,11 @@ typedef NS_ENUM(NSInteger, AnimationDoctor) {
     [self.doctor runAction:self.doctorActions[kAnimationDoctorVanishingAction]];
 }
 
+#pragma mark - XCTest Demo
+
+- (BOOL)XCTestDemo
+{
+    return YES;
+}
+
 @end
